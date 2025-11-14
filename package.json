@@ -1,0 +1,23 @@
+{
+  "name": "atv4-mongodb-express",
+  "version": "1.0.0",
+  "description": "Servidor Node.js com Express e MongoDB",
+  "main": "Ex1.js",
+  "scripts": {
+    "start": "node servidor-completo.js",
+    "dev": "node servidor-completo.js",
+    "import": "node importar-dados.js",
+    "server": "node servidor-completo.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.21.0"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC"
+}
